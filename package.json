@@ -1,0 +1,15 @@
+{
+  "name": "clipboard-gpt",
+  "version": "1.0.0",
+  "description": "Escuta o clipboard: ao copiar, envia ao ChatGPT e devolve a resposta para colar.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "clipboardy": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "openai": "^5.13.1"
+  }
+}
