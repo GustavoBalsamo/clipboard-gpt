@@ -38,7 +38,7 @@ async function askOpenAI(userText) {
       { role: 'system', content: SYSTEM_PROMPT },
       { role: 'user', content: userText }
     ],
-    temperature: 0.3
+    temperature: 0.1
   });
   return (completion.choices?.[0]?.message?.content || '').trim();
 }
